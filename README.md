@@ -116,8 +116,8 @@ class User{
 ```sh
 
 
-     immutable.html:39 Uncaught Immutable: "name" is Immutable and may not be modified.
-        Scope : {
+immutable.html:39 Uncaught Immutable: "name" is Immutable and may not be modified.
+    Scope : {
     "age": 42,
     "name": "bob"
 }
@@ -166,10 +166,11 @@ class User{
 ```sh
 
 
-    UndefinedMethod: Expects 'getInfo' to be Function but got undefined
-                Scope : User { name: 'bob', age: 42 }
-        at InvalidMethod (/home/bmiller/git/node-error-classes/lib/InvalidMethod.js:10:1)
-        at Object.<anonymous> (/home/bmiller/git/node-error-classes/example/invalidMethod.js:15:14)
+ invalidMethod.html:25 Uncaught InvalidMethod: Expects "getInfo" to be Function but got undefined
+             Scope : {
+     "name": "bob",
+     "age": 42
+ }
 
 ```
 <a name="Errors.InvalidParameter"></a>

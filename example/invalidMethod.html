@@ -14,7 +14,7 @@
             const bob=new User('bob',42);
 
             if(!bob.getInfo || typeof bob.getInfo !== 'function'){
-               const err=new InvalidMethodError;
+               const err=new Errors.InvalidMethod;
 
                err.setMessage(
                    'getInfo',
