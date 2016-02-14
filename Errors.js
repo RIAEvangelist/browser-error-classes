@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * # Custom Node and Browser Error Classes
+ * # Custom and Explicit Javascript Error Classes
  *
  * ` bower install browser-error-classes `
  *
