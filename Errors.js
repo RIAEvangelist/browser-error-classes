@@ -39,7 +39,7 @@
         );
 
         for(let i=0; i<errors.length; i++){
-            requireScript(`${path}${errors[i]}.js`);
+            requireScript(`${path}lib/${errors[i]}.js`);
         }
 
         function requireScript(path){
